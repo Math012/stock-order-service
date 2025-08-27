@@ -10,7 +10,7 @@ import lombok.*;
 @Builder
 public class OrderResponseDTO {
     private String productName;
-    private String productCategory;
-    int totalQuantity;
+    private int totalQuantity;
     private double productPrice;
+    private String userEmail;
 }
